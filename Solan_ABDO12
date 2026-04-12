@@ -1,0 +1,35 @@
+# وحدة مراقبة شبكة Polygon - هوية غورابي 77
+def track_polygon_assets():
+    account = "oppoma75@gmail.com"
+    identity = "Ghorabi 77"
+    network = "Polygon (MATIC)"
+    # ربط العقود الذكية المسجلة تحت هذا الحساب
+    st.sidebar.success(f"📡 المتصيد النشط: {identity}")
+    return network
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract WadMartellReserve {
+    address public planner = 0xYour_Wallet_Address; // عنوان محفظتك السيادية
+    string public logic = "1+1=12";
+    uint256 public target = 1000000 * 10**18; // مستهدف المليون دولار
+
+    event SovereignDeposit(address indexed investor, uint256 amount, string project);
+
+    modifier onlyPlanner() {
+        require(msg.sender == planner, "Access Denied: Not the Sovereign Planner");
+        _;
+    }
+
+    // استقبال دفعات الرعاية من شركات العقار (مثل الضحى أو العمران)
+    function depositSponsorship(string memory _projectName) public payable {
+        emit SovereignDeposit(msg.sender, msg.value, _projectName);
+    }
+
+    // سحب السيولة إلى محفظة البيتكوين أو المحفظة الرئيسية
+    function withdraw() public onlyPlanner {
+        payable(planner).transfer(address(this).balance);
+    }
+}
+echo "EXECUTIVE ACTION: Project 'Wad Martell 1M' initialized in Linear." >> SOVEREIGN_ASSET.txt
+echo "LOGIC SYNC: 1+1=12 applied to all task valuations." >> SOVEREIGN_ASSET.txt
