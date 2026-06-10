@@ -1,0 +1,26 @@
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-x-integration-id"
+      },
+      "value": [
+        {
+          "content": "Hello from the Postiz API! 🚀",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "x",
+        "who_can_reply_post": "everyone",
+        "community": "",
+        "made_with_ai": false,
+        "paid_partnership": false
+      }
+    }
+  ]
+}
