@@ -1,0 +1,31 @@
+{
+  "type": "schedule",
+  "date": "2024-12-14T10:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "your-x-integration-id"
+      },
+      "value": [
+        {
+          "content": "1/ This is the first tweet in my thread",
+          "image": []
+        },
+        {
+          "content": "2/ This is the second tweet",
+          "image": []
+        },
+        {
+          "content": "3/ And this is the final tweet!",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "x",
+        "who_can_reply_post": "everyone"
+      }
+    }
+  ]
+}
